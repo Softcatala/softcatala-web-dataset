@@ -16,5 +16,5 @@ How to update the dataset:
 * Export the _programes_ and _articles_ items from WordPress admin interface
 * Save the raw files into _/raw _directory
 * Run _./filter.sh_ to filter out sensitive data
-* Do pip install requirements
+* Do _pip install -r requirements.txt_
 * Run _python wp-to-json.py_
